@@ -40,9 +40,6 @@ public class Bank {
   }
 
   public void setPin(int pin) {
-    while (String.valueOf(pin).length() != 4) {
-      System.out.println("");
-    }
     this.pin = pin;
   }
 
